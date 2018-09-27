@@ -1,0 +1,22 @@
+.title {
+  font-size: 7.2rem;
+  padding-top: 1rem;
+}
+.small-title{
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media only screen and (max-width: $screen-sm-max) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .title{
+    font-size: 3rem;
+  }
+
+}

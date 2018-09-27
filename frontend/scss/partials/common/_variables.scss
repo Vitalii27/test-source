@@ -1,0 +1,47 @@
+$html-font-size: 62.5%;
+
+/* breakpoints */
+
+$screen-xxs: 30em !default; // 480px
+$screen-xs: 37.5em !default; // 600px
+// Small screen / tablet
+$screen-sm: 48em !default; // 767px
+// Medium screen / desktop
+$screen-md: 62em !default; // 992px
+// Large screen
+$screen-lg: 75em !default; // 1200px
+// Extra large screen
+$screen-xlg: 87.5em !default; // 1400px
+// Super extra large screen
+$screen-xxlg: 100em !default; // 1600px
+$content-max-width: 120rem !default;
+$small-container-max-width: 63rem !default;
+$content-min-width: 30rem !default;
+// for min-width media
+$screen-xs-min: $screen-xs !default; // from 768
+$screen-sm-min: $screen-sm !default; // from 992
+$screen-md-min: $screen-md !default; // from 1200
+$screen-lg-min: $screen-lg !default; // from 1400
+$screen-xlg-min: $screen-xlg !default; // from 1400
+// for max-width media
+$screen-xs-max: ($screen-sm - 0.0625) !default; // till 767
+$screen-sm-max: ($screen-md - 0.0625) !default; // till 991
+$screen-md-max: ($screen-lg - 0.0625) !default; // till 1199
+$screen-lg-max: ($screen-xlg - 0.0625) !default; // till 1399
+$screen-xlg-max: ($screen-xxlg - 0.0625) !default; // till 1599
+$h-screen-sm-max: 50em;
+
+/* color variables */
+
+$white: #fff; //const
+$black: #000; //const
+$medium-black: #333333;
+$grey: #565656;
+$yellow: #ffe16b;
+
+/* fonts */
+
+$main-font: 'Work Sans', sans-serif;
+$second-font: 'Libre Baskerville', sans-serif
+
+

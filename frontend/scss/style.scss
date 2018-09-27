@@ -1,0 +1,88 @@
+/* VARIABLES */
+
+@import "partials/common/variables";
+@import "partials/common/fonts";
+
+
+/* VARIABLES END */
+
+
+/* -------------------- */
+
+
+/* VENDOR */
+
+@import "partials/vendor/normalize";
+@import "partials/vendor/clearfix";
+//
+
+/* VENDOR END */
+
+
+/* -------------------- */
+
+
+/* COMMON */
+
+@import "partials/common/best-practices";
+@import "partials/common/common";
+
+/* COMMON END */
+
+
+/* -------------------- */
+
+
+/* LAYOUT */
+
+@import "partials/layout/layout";
+
+/* LAYOUT END */
+
+
+/* -------------------- */
+
+
+/* BLOCKS */
+
+@import "partials/components/blocks/mixins/placeholder";
+@import "partials/components/blocks/menu-btn";
+@import "partials/components/blocks/swipe-menu";
+@import "partials/components/blocks/search-popup";
+@import "partials/components/blocks/table";
+@import "partials/components/blocks/title";
+@import "partials/components/blocks/form-popup";
+@import "partials/components/blocks/popup";
+
+//
+// /* SECTIONS */
+
+@import "partials/components/blocks/hero";
+@import "partials/components/blocks/content";
+@import "partials/components/blocks/latest-posts";
+
+
+/* BLOCKS END*/
+
+
+/* -------------------- */
+
+
+/* GENERAL */
+
+@import "partials/components/header";
+@import "partials/components/footer";
+
+/* GENERAL END */
+
+
+/* -------------------- */
+
+
+/* PAGES */
+
+
+/* PAGES END */
+
+
+/* -------------------- */
